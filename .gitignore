@@ -1,0 +1,38 @@
+# Node.js依存モジュール
+node_modules/
+
+# ビルド生成物（フレームワークに応じて）
+dist/
+build/
+
+# 環境変数ファイル（機密情報が含まれる）
+.env
+.env.local
+.env.*.local
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# キャッシュ
+.cache/
+.next/
+out/
+.vite/
+coverage/
+
+# OS・エディタ関連
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE関連
+.vscode/
+.idea/
+
+# テストのスナップショットなど（必要に応じて）
+__snapshots__/
+
+# lockファイル（
+package-lock.json
